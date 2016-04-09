@@ -1,20 +1,42 @@
-USE_CAMERA_STUB := true
+# Copyright (C) 2015 The CyanogenMod Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
-# inherit from the proprietary version
--include vendor/samsung/gt510wifi/BoardConfigVendor.mk
+#
+# This file sets variables that control the way modules are built
+# thorughout the system. It should not be used to conditionally
+# disable makefiles (the proper mechanism to control what gets
+# included in a build is to use PRODUCT_PACKAGES in a product
+# definition file).
+#
 
-TARGET_ARCH := arm
-TARGET_NO_BOOTLOADER := true
-TARGET_BOARD_PLATFORM := unknown
-TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := armeabi
-TARGET_ARCH_VARIANT := armv7-a-neon
+# inherit from qcom-common
+-include device/samsung/qcom-common/BoardConfigCommon.mk
+
+LOCAL_PATH := device/samsung/gt510wifi
+
+# Platform
+TARGET_BOARD_PLATFORM := msm8916
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
+TARGET_BOOTLOADER_BOARD_NAME := MSM8916
+
+# Arch
+TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
+TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_VARIANT := cortex-a53
-TARGET_CPU_SMP := true
-ARCH_ARM_HAVE_TLS_REGISTER := true
+TARGET_CPU_CORTEX_A53 := true
 
-TARGET_BOOTLOADER_BOARD_NAME := gt510wifi
-
+BOARD_CUSTOM_BOOTIMG_MK      := device/samsung/gt510wifi/mkbootimg.mk
 BOARD_KERNEL_CMDLINE         := console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci
 BOARD_KERNEL_BASE            := 0x80000000
 BOARD_RAMDISK_OFFSET         := 0x02000000
