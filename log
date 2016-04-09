@@ -1,3 +1,4 @@
+make: Entering directory '/home/geert/android/system'
 ============================================
 PLATFORM_VERSION_CODENAME=REL
 PLATFORM_VERSION=5.1.1
@@ -8,7 +9,7 @@ TARGET_BUILD_TYPE=release
 TARGET_BUILD_APPS=
 TARGET_ARCH=arm
 TARGET_ARCH_VARIANT=armv7-a-neon
-TARGET_CPU_VARIANT=cortex-a7
+TARGET_CPU_VARIANT=cortex-a53
 TARGET_2ND_ARCH=
 TARGET_2ND_ARCH_VARIANT=
 TARGET_2ND_CPU_VARIANT=
@@ -19,7 +20,7 @@ HOST_BUILD_TYPE=release
 BUILD_ID=LMY49J
 OUT_DIR=/home/geert/android/system/out
 ============================================
-build/core/binary.mk:745: target '/home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_bionic_intermediates/arch-arm/bionic/memcmp.o' given more than once in the same rule
+Checking build tools versions...
 "ebtables is disabled on this build"
 find: `dummy': No such file or directory
 find: `../../../../../../external/hamcrest/src': No such file or directory
@@ -36,146 +37,62 @@ build/core/tasks/kernel.mk:127: * for more information                          
 build/core/tasks/kernel.mk:128: ***************************************************************
 build/core/tasks/kernel.mk:333: warning: overriding recipe for target '/home/geert/android/system/out/target/product/gt510wifi/kernel'
 build/core/Makefile:46: warning: ignoring old recipe for target '/home/geert/android/system/out/target/product/gt510wifi/kernel'
-[32mtarget SharedLib:[0m libc (/home/geert/android/system/out/target/product/gt510wifi/obj/SHARED_LIBRARIES/libc_intermediates/LINKED/libc.so)
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264342 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264402 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264462 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264522 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264582 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264642 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264702 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264762 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264822 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264882 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4264942 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265002 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265062 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265122 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265182 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265242 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265302 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265362 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265422 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265482 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265542 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265602 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265662 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265722 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265782 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265842 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265902 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4265962 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266022 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266082 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266142 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266202 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266262 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266322 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266382 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266442 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266502 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266562 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266622 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266682 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266742 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266802 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266862 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266922 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4266982 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267042 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267102 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267162 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267222 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267282 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267342 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267402 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267462 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267522 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267582 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267642 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267702 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267762 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267822 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267882 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4267942 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268002 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268062 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268122 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268182 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268242 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268302 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268362 is not an ELF object
-/home/geert/android/system/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a: member at 4268422 is not an ELF object
-bionic/libc/bionic/access.cpp:33: error: undefined reference to 'faccessat'
-bionic/libc/bionic/chmod.cpp:34: error: undefined reference to 'fchmodat'
-bionic/libc/bionic/dirent.cpp:86: error: undefined reference to '__getdents64'
-bionic/libc/bionic/dirent.cpp:142: error: undefined reference to 'close'
-bionic/libc/include/unistd.h:217: error: undefined reference to 'read'
-bionic/libc/bionic/eventfd_write.cpp:33: error: undefined reference to 'write'
-bionic/libc/bionic/getcwd.cpp:59: error: undefined reference to '__getcwd'
-bionic/libc/bionic/inotify_init.cpp:32: error: undefined reference to 'inotify_init1'
-bionic/libc/bionic/libc_logging.cpp:463: error: undefined reference to 'close'
-bionic/libc/bionic/libc_logging.cpp:476: error: undefined reference to 'close'
-bionic/libc/bionic/libc_logging.cpp:444: error: undefined reference to 'close'
-bionic/libc/bionic/link.cpp:33: error: undefined reference to 'linkat'
-bionic/libc/bionic/lstat.cpp:35: error: undefined reference to 'fstatat'
-bionic/libc/bionic/mknod.cpp:35: error: undefined reference to 'mknodat'
-/home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a(NetdClientDispatch.o):NetdClientDispatch.cpp:function __netdClientDispatch: error: undefined reference to '__accept4'
-/home/geert/android/system/out/target/product/gt510wifi/obj/STATIC_LIBRARIES/libc_common_intermediates/libc_common.a(NetdClientDispatch.o):NetdClientDispatch.cpp:function __netdClientDispatch: error: undefined reference to '__connect'
-bionic/libc/bionic/pause.cpp:38: error: undefined reference to '__rt_sigprocmask'
-bionic/libc/bionic/poll.cpp:76: error: undefined reference to '__pselect6'
-bionic/libc/bionic/poll.cpp:109: error: undefined reference to '__pselect6'
-bionic/libc/bionic/pthread_attr.cpp:121: error: undefined reference to 'getrlimit'
-bionic/libc/bionic/pthread_getschedparam.cpp:42: error: undefined reference to 'sched_getparam'
-bionic/libc/bionic/pthread_getschedparam.cpp:46: error: undefined reference to 'sched_getscheduler'
-bionic/libc/bionic/pthread_kill.cpp:49: error: undefined reference to 'tgkill'
-bionic/libc/bionic/pthread_setname_np.cpp:74: error: undefined reference to 'write'
-bionic/libc/bionic/pty.cpp:175: error: undefined reference to 'setsid'
-bionic/libc/bionic/reboot.cpp:35: error: undefined reference to '__reboot'
-bionic/libc/bionic/recv.cpp:33: error: undefined reference to 'recvfrom'
-bionic/libc/bionic/sched_getcpu.cpp:36: error: undefined reference to '__getcpu'
-bionic/libc/bionic/setpgrp.cpp:32: error: undefined reference to 'setpgid'
-bionic/libc/bionic/sigprocmask.cpp:46: error: undefined reference to '__rt_sigprocmask'
-bionic/libc/bionic/stat.cpp:35: error: undefined reference to 'fstatat'
-bionic/libc/bionic/statvfs.cpp:60: error: undefined reference to '__fstatfs64'
-bionic/libc/bionic/symlink.cpp:33: error: undefined reference to 'symlinkat'
-bionic/libc/bionic/sysconf.cpp:149: error: undefined reference to 'clock_getres'
-bionic/libc/bionic/umount.cpp:32: error: undefined reference to 'umount2'
-bionic/libc/bionic/mmap.cpp:58: error: undefined reference to 'madvise'
-bionic/libc/include/unistd.h:217: error: undefined reference to 'read'
-bionic/libc/dns/net/getaddrinfo.c:372: error: undefined reference to '__connect'
-bionic/libc/dns/net/getaddrinfo.c:1806: error: undefined reference to '__connect'
-bionic/libc/dns/resolv/res_send.c:1027: error: undefined reference to 'getsockopt'
-bionic/libc/dns/resolv/res_send.c:206: error: undefined reference to 'bind'
-bionic/libc/dns/resolv/res_send.c:217: error: undefined reference to 'bind'
-bionic/libc/dns/resolv/res_send.c:770: error: undefined reference to 'getsockopt'
-bionic/libc/dns/resolv/res_send.c:953: error: undefined reference to '__connect'
-bionic/libc/include/unistd.h:217: error: undefined reference to 'read'
-bionic/libc/include/sys/socket.h:306: error: undefined reference to 'recvfrom'
-bionic/libc/include/unistd.h:217: error: undefined reference to 'read'
-bionic/libc/dns/resolv/res_init.c:656: error: undefined reference to 'gettimeofday'
-bionic/libc/dns/resolv/res_cache.c:353: error: undefined reference to 'gettimeofday'
-bionic/libc/upstream-netbsd/lib/libc/isc/ev_timers.c:139: error: undefined reference to 'gettimeofday'
-bionic/libc/upstream-openbsd/lib/libc/gen/time.c:39: error: undefined reference to 'gettimeofday'
-bionic/libc/upstream-openbsd/lib/libc/stdio/stdio.c:66: error: undefined reference to 'write'
-bionic/libc/upstream-openbsd/lib/libc/stdio/vdprintf.c:47: error: undefined reference to 'write'
-external/jemalloc/src/chunk_mmap.c:154: error: undefined reference to 'madvise'
-bionic/libc/bionic/__recvfrom_chk.cpp:42: error: undefined reference to 'recvfrom'
-bionic/libc/bionic/__umask_chk.cpp:50: error: undefined reference to 'umask'
-bionic/libc/bionic/legacy_32_bit_support.cpp:60: error: undefined reference to '__fstatfs64'
-bionic/libc/bionic/ndk_cruft.cpp:247: error: undefined reference to '__getdents64'
-bionic/libc/bionic/ndk_cruft.cpp:264: error: undefined reference to 'getrlimit'
-bionic/libc/bionic/bindresvport.c:65: error: undefined reference to 'bind'
-bionic/libc/bionic/daemon.c:36: error: undefined reference to 'chdir'
-bionic/libc/bionic/daemon.c:63: error: undefined reference to 'setsid'
-bionic/libc/bionic/fts.c:1035: error: undefined reference to 'fchdir'
-bionic/libc/bionic/fts.c:771: error: undefined reference to 'fchdir'
-bionic/libc/bionic/fts.c:238: error: undefined reference to 'fchdir'
-bionic/libc/bionic/fts.c:361: error: undefined reference to 'fchdir'
-bionic/libc/bionic/getpriority.c:34: error: undefined reference to '__getpriority'
-collect2: error: ld returned 1 exit status
-build/core/shared_library_internal.mk:68: recipe for target '/home/geert/android/system/out/target/product/gt510wifi/obj/SHARED_LIBRARIES/libc_intermediates/LINKED/libc.so' failed
-make: *** [/home/geert/android/system/out/target/product/gt510wifi/obj/SHARED_LIBRARIES/libc_intermediates/LINKED/libc.so] Error 1
+[36mExport includes file:[0m system/core/libmincrypt/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libmincrypt_intermediates/export_includes
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/curlbuild.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/curl.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/curlrules.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/curlver.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/easy.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/mprintf.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/multi.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/stdcheaders.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libcurl/curl/typecheck-gcc.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/libexpat/expat.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/libexpat/expat_external.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libexpat/expat.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libexpat/expat_external.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/libpng/png.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/libpng/pngconf.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/libpng/pngusr.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libpng/png.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libpng/pngconf.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libpng/pngusr.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/selinux/selinux.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/selinux/label.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/selinux/context.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/selinux/avc.h
+Header: /home/geert/android/system/out/host/linux-x86/obj/include/selinux/android.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/selinux/selinux.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/selinux/label.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/selinux/context.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/selinux/avc.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/selinux/android.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/protobuf-c/include/google/protobuf-c//protobuf-c-private.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libsonivox/eas.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libsonivox/eas_types.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libsonivox/eas_reverb.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libsonivox/jet.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/libsonivox/ARM_synth_constants_gnu.inc
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/sdk/softap/include/qsap_api.h
+Header: /home/geert/android/system/out/target/product/gt510wifi/obj/include/sdk/softap/include/qsap.h
+[36mImport includes file:[0m /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libmincrypt_intermediates/import_includes
+[36mExport includes file:[0m system/core/mkbootimg/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/EXECUTABLES/mkbootimg_intermediates/export_includes
+[36mExport includes file:[0m build/libs/host/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libhost_intermediates/export_includes
+[36mImport includes file:[0m /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libhost_intermediates/import_includes
+[36mExport includes file:[0m build/tools/acp/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/EXECUTABLES/acp_intermediates/export_includes
+[36mNotice file:[0m system/core/libmincrypt/NOTICE -- /home/geert/android/system/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libmincrypt.a.txt
+[36mImport includes file:[0m /home/geert/android/system/out/host/linux-x86/obj32/EXECUTABLES/mkbootfs_intermediates/import_includes
+[36mExport includes file:[0m system/core/cpio/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/EXECUTABLES/mkbootfs_intermediates/export_includes
+[36mExport includes file:[0m external/zlib/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libz_intermediates/export_includes
+[36mImport includes file:[0m /home/geert/android/system/out/host/linux-x86/obj32/STATIC_LIBRARIES/libz_intermediates/import_includes
+[36mExport includes file:[0m external/zlib/Android.mk -- /home/geert/android/system/out/host/linux-x86/obj32/EXECUTABLES/minigzip_intermediates/export_includes
+[36mNotice file:[0m external/zlib/NOTICE -- /home/geert/android/system/out/host/linux-x86/obj/NOTICE_FILES/src//bin/minigzip.txt
+[36mNotice file:[0m external/zlib/NOTICE -- /home/geert/android/system/out/host/linux-x86/obj/NOTICE_FILES/src//lib64/libz.a.txt
+[36mNotice file:[0m external/zlib/NOTICE -- /home/geert/android/system/out/host/linux-x86/obj/NOTICE_FILES/src//lib/libz.a.txt
+make: *** No rule to make target '/home/geert/android/system/out/host/linux-x86/bin/dtbToolCM', needed by '/home/geert/android/system/out/target/product/gt510wifi/dt.img'.  Stop.
+make: *** Waiting for unfinished jobs....
+make: Leaving directory '/home/geert/android/system'
 
-#### make failed to build some targets (08:25 (mm:ss)) ####
+#### make failed to build some targets (05:26 (mm:ss)) ####
 
