@@ -144,7 +144,7 @@ BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
-    device/samsung/j5-common/sepolicy
+    device/samsung/gt510wifi/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     bluetooth_loader.te \
