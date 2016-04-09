@@ -256,15 +256,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp \
     ro.sys.usb.default.config=mtp \
     persist.sys.isUsbOtgEnabled=true
-
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/samsung/gt510wifi/kernel
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
     
 # Default.prop overrides to get adb working at boot   
 ADDITIONAL_DEFAULT_PROPERTIES += \
