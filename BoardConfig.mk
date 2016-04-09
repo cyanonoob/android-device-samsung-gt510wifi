@@ -206,8 +206,6 @@ BOARD_RECOVERY_SWIPE := true
 # Keys
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-TARGET_PREBUILT_KERNEL := device/samsung/gt510wifi/kernel
-
 # Dex
 ifeq ($(HOST_OS),linux)
   ifeq ($(TARGET_BUILD_VARIANT),user)
