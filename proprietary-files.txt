@@ -23,11 +23,6 @@ vendor/lib/libbtnv.so
 # Sensors
 lib/hw/sensors.msm8916.so
 
-# NFC
-lib/hw/nfc_nci.msm8916.so
-vendor/firmware/libpn548ad_fw.so
-etc/firmware/nfc_test.bin
-
 # FM Radio
 bin/fm_qsoc_patches
 
