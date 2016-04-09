@@ -12,7 +12,7 @@ Storage | 16/32 GB
 MicroSD | Up to 128GB
 Battery | 6000 mAh
 Display | 9.7"
-Selfie Camera  | 2 MP, LED flash
+Selfie Camera  | 2 MP
 Rear Camera  | 5 MP,  768 x 1024 pixels
 
 
