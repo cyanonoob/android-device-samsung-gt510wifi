@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := gt510wifi
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/gt510wifi/device_gt510wifi.mk)
